@@ -24,3 +24,7 @@ the output should be:
 |----------|-----------|------------|
 | Botswana | Africa    | 2230905    |
 | Cameroon | Africa    | 22709892   |
+
+#My Analysis: 1. "identify all the countries that are in Africa" This query need WHERE Clause  
+2."sorted alphabetically by their names" need ORDER BY clause.
+
