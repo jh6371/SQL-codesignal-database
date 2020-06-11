@@ -9,7 +9,10 @@ income: the average monthly income of the project.
 
 Your boss says that internal project ids are irrelevant to him and that he isn't interested in how big the teams are. Since that's the case, he wants you to create another table by removing the internal_id and team_size columns from the existing Projects table. Return it sorted by internal_id in ascending order.
 
-Using https://tableconvert.com/ to convert excel table to MD.
+*I Used https://tableconvert.com/ to convert excel table to MD.
+
+Example
+For the following table Projects
 
 | internal\_id | project\_name | team\_size | team\_lead   | income |
 |--------------|---------------|------------|--------------|--------|
