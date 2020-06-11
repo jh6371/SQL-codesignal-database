@@ -17,7 +17,9 @@ For the following table countries:
 | Botswana | Africa        | 2230905    |
 | Cambodia | Asia          | 15626444   |
 | Cameroon | Africa        | 22709892   |
+
 the output should be:
+
 | name     | continent | population |
 |----------|-----------|------------|
 | Botswana | Africa    | 2230905    |
