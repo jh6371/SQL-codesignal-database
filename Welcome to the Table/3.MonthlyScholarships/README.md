@@ -27,3 +27,9 @@ the output should be
 | 4  | 1250                |
 | 5  | 1750                |
 | 6  | 1083\.3333333333333 |
+
+# My Analysis:
+1.same columns as the initial table: including id and scholarship
+2.the amount of the student's monthly scholarship payout: scholarship/12 as scholarship
+3.ordered by the students' ids: ORDER BY id;
+
