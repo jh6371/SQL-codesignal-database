@@ -37,3 +37,6 @@ the output should be：
 | eduardische    |
 | urandom        |
 
+# My Analysis:
+1. Contains the names of the participants who took the 4th to 8th places: LIMIT 5 OFFSET 3, which means you will choose 5 records, from the 4th place.For more info, read this:
+https://www.w3schools.com/php/php_mysql_select_limit.asp
