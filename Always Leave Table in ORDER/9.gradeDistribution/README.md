@@ -54,3 +54,4 @@ so its' final > midterm1 / 4 + midterm2 / 4 + final / 2  or final > midterm1 / 2
 ORDER BY substr(Name,1,3),ID;
 extract name from 1st character to 3rd then order names, if their name's first 3 characters are the same, order by id.
 
+3. Also, be aware of the result table's column name, it should be Nmae, ID, not name id.
