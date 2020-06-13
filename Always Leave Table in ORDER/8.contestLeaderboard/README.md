@@ -13,4 +13,27 @@ It is guaranteed that there are at least 3 prize winners in the leaderboard and 
 
 Example
 
-For the following table leaderboard
+For the following table leaderboard：
+| id | name           | score |
+|----|----------------|-------|
+| 1  | gongy          | 3001  |
+| 2  | urandom        | 2401  |
+| 3  | eduardische    | 2477  |
+| 4  | Gassa          | 2999  |
+| 5  | bcc32          | 2658  |
+| 6  | Alex\_2oo8     | 6000  |
+| 7  | mirosuaf       | 2479  |
+| 8  | Sparik         | 2399  |
+| 9  | thomas\_holmes | 2478  |
+| 10 | cthaeghya      | 2400  |
+
+the output should be：
+
+| name           |
+|----------------|
+| bcc32          |
+| mirosuaf       |
+| thomas\_holmes |
+| eduardische    |
+| urandom        |
+
