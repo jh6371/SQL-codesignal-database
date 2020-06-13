@@ -40,3 +40,17 @@ Output should be:
 | Jonathan | 58754 |
 
 For David, Jonty and Jonathan, the best option is number 3. But Anthony's best option is the second one, because Option1 = 25% of 100 + 25% of 10 +50% of 50 = 52.5, Option2 = 50% of 100 + 50% of 10 = 55, Option3 = 100% of 50 = 50.
+
+
+# My Analysis: 
+1. whose best grade comes from Option 3: means option 3 > option2 or option3 > option1;
+option1=midterm1 / 4 + midterm2 / 4 + final / 2  
+option2=midterm1 / 2 + midterm2 / 2  
+option3=final  
+
+so its' final > midterm1 / 4 + midterm2 / 4 + final / 2  or final > midterm1 / 2 + midterm2 / 2  
+
+2.sorted based on the first 3 characters of their name. If the first 3 characters of two names are the same, then the student with the lower ID value comes first.  
+ORDER BY substr(Name,1,3),ID;
+extract name from 1st character to 3rd then order names, if their name's first 3 characters are the same, order by id.
+
