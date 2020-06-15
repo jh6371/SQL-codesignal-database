@@ -40,8 +40,8 @@ The name of the 1st suspect doesn't start with "B", the 3rd suspect is taller th
 
 # My Analysis:
 1）robber is not taller than 170cm：WHERE height <= 170   
-2）the robber left their signature near the crime scene: "B. Gre?n". "B" definitely stands for the first letter of robber's name, and "Gre?n" is their surname. The 4th letter of the surname is smudged by ketchup and is unreadable    
+2）the robber left their signature near the crime scene: "B. Gre?n". "B" definitely stands for the first letter of robber's name, and "Gre?n" is their surname. The 4th letter of the surname is smudged by ketchup and is unreadable:    
 WHERE lower(name) LIKE 'b%'  
 AND lower(surname) LIKE 'gre_n'  
-3) ordered by the suspects' ids in ascending order.
+3) ordered by the suspects' ids in ascending order:
 ORDER BY id ASC;
