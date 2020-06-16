@@ -48,9 +48,6 @@ the output should be:
 3) _the underscore represents a single character.
 https://www.w3schools.com/sql/sql_like.asp for further info.  
 4) how to use backlash:  
-  _% means underscore and any character  
-  \_ means underscore  
-  \% means percent  
-  % means any character  
+  _% means underscore and any character ; \_ means underscore; \% means percent; % means any character  
   https://stackoverflow.com/questions/15214509/what-does-backslash-mean-in-an-sql-query
   
