@@ -46,7 +46,9 @@ It's based on the former one, so you already know the people who can be the crim
 SELECT id, name, surname  
 FROM Suspect  
 WHERE lower(name) LIKE 'b%'  
-AND lower(surname) LIKE 'gre_n'  
+AND lower(surname) LIKE 'gre_n' 
+
+2）robber is taller than 170cm: so the people who are not robber should be less than 170cm.
 AND height <= 170  
 
-2)ORDER BY id ASC;
+3)ORDER BY id ASC;  
