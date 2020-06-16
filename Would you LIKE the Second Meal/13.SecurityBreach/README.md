@@ -42,11 +42,15 @@ the output should be:
 
 # My Analysis-You should warn the people with following attributes: 
 <one or more arbitrary character>%<first name>_<second name>%<zero or more arbitrary characters>:  
-  WHERE attribute LIKE BINARY concat('_%\%',first_name,'\_',second_name,'\%%\);
+  WHERE attribute LIKE BINARY concat('_%\%',first_name,'\_',second_name,'\%','%');
 1）LIKE BINARY: like is not case sensitive, while LIKE BINARY is case sensitive  
 2) % the percent sign represents zero, one, or multiple characters  
 3) _the underscore represents a single character.
 https://www.w3schools.com/sql/sql_like.asp for further info.  
-4) \%%,\_,-%\% means what:  
+4) how to use backlash:  
+  _% means underscore and any character  
+  \_ means underscore  
+  \% means percent  
+  % means any character  
   https://stackoverflow.com/questions/15214509/what-does-backslash-mean-in-an-sql-query
   
