@@ -31,3 +31,20 @@ the output should be:
 | 1  | 2 | 3 | \+        | 5  |
 | 4  | 4 | 7 | \*        | 28 |
 
+Explanation:
+
+2 + 3 = 5 - correct;
+2 + 3 = 6 - incorrect;
+3 / 2 = 1 - incorrect;
+4 * 7 = 28 - correct;
+54 - 2 = 27 - incorrect;
+3 / 0 = 0 - incorrect.
+
+# My Analysis:
+1. have the same columns as the initial table does: SELECT * FROM expressions.
+2. it should only contain those rows that represent correct expressions: c = a<operation>b
+WHERE (operation = '+' AND c = a+b
+OR(operation = '-' AND c = a-b)
+OR(operation = '/' AND c = a/b)
+OR(operation = '*' AND c = a*b));
+
