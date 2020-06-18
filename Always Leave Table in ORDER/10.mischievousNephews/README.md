@@ -48,7 +48,7 @@ SELECT weekday(mischief_date) as weekday, mischief_date,author,title.
 
 2.for each weekday Huey's mischief should go first, Dewey's should go next, and Louie's should go last. In case of a tie, mischief_date should be a tie-breaker. If there's still a tie, the record with the lexicographically smallest title should go first.  
 
-Which means, except from weekday, you should use the order they give to order your list first, then use lexicographically smallest title:  
+Which means, except from weekday, you should use the order they give to order your list first,if there is a tie, you should use mischief_date to order,if there is still a tie, use lexicographically smallest title:  
 
 ORDER BY weekday, field(author,"Huey","Dewey","Louie"), mischief_date,title.   
 
