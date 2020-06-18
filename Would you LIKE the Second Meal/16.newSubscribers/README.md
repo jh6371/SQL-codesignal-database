@@ -43,3 +43,11 @@ the output should be:
 | Lavelle Phu   |
 | Lia Cover     |
 | Tonie Moreton |
+
+# My Analysis:
+1.one column subscriber that contains all the distinct names of anyone who is subscribed to a newspaper with the word Daily in its name:find the subscriber who subscribed newspaper name with'daily' and return distinct name.  
+SELECT subscriber FROM full_year WHERE instr(newspaper,'daily'). 
+(half_year's query is similar to this, only need to replace from table name.)
+
+2.Since there are two table, we need to combine them, in this part, we only need to union them.
+UNION.
