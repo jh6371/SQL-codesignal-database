@@ -48,5 +48,5 @@ SELECT item_name, item_type, COUNT(*) AS item_count FROM availableItems
 
 2)The output should be sorted in ascending order by item type, with items of the same type sorted in ascending order by their names.
 
-GROUP BY item_type,item_name
-ORDER BY item_type,item_name.
+GROUP BY item_type,item_name  
+ORDER BY item_type,item_name.  
