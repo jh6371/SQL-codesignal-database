@@ -43,8 +43,10 @@ single director column and contain the names of film directors such that:
 WHERE year>2000
 
 2)the total number of Oscar awards these movies received is more than 2.  
-GROUP BY director *since the oscars are calculated by director*
-HAVING SUM(oscars) > 2 *having are used after group by, it filter the data based on the group by result, here we combined it with aggregate function to filter the director who got oscars more than 2.*
+GROUP BY director    
+*since the oscars are calculated by director*  
+HAVING SUM(oscars) > 2      
+*having are used after group by, it filter the data based on the group by result, here we combined it with aggregate function to filter the director who got oscars more than 2.*  
 
 3)The table should be sorted by the directors' names in ascending order.  
 ORDER BY director;
