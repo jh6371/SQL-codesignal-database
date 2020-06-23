@@ -2,9 +2,10 @@ You are an avid traveler and you've visited so many countries that when people a
 
 The diary is represented as a table diary, which has the following columns:
 
-id: the unique ID of the trip;
-travel_date: the date the trip began;
-country: the country to which you traveled.
+id: the unique ID of the trip;  
+travel_date: the date the trip began;  
+country: the country to which you traveled.  
+
 Given this diary table, create a semicolon-separated list of all the distinct countries you've visited, sorted lexicographically, and put the list in a table that has a single countries column.
 
 Example
