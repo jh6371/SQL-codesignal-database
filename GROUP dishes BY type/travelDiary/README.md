@@ -26,3 +26,12 @@ the output should be
 | countries                              |
 |----------------------------------------|
 | Australia;Austria;France;Ireland;Japan |
+
+# My Analysis:
+1)create a semicolon-separated list of all the distinct countries you've visited:  
+SELECT GROUP_CONCAT(DISTINCT country SEPARATOR ';') AS countries FROM diary;  
+*GROUP_CONCAT()  used to concatenate data from multiple rows into one field. *
+*for more information, read: https://www.geeksforgeeks.org/mysql-group_concat-function/#:~:text=The%20GROUP_CONCAT()%20function%20in,Otherwise%2C%20it%20returns%20NULL.*
+
+2)sorted lexicographically. 
+3)and put the list in a table that has a single countries column.  
