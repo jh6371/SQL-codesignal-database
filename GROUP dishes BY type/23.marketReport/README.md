@@ -33,3 +33,5 @@ the output should be
 | UK      | 1           |
 | USA     | 3           |
 | Total:  | 8           |
+
+# My Analysis:
