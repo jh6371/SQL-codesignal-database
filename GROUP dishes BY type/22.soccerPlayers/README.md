@@ -24,3 +24,16 @@ the output should be
 | players                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------|
 | Alexis Sanchez \#7; Oliver Giroud \#12; Theo Walcott \#14; Santi Cazorla \#19; Hector Bellerin \#24; Petr Cech \#33 |
+
+# My Analysis:
+1）Create a semicolon-separated list of all the players：according to this, we need to use group_concat funtion and separator';'
+
+SELECT GROUP_CONCAT(first_name," ",surname,' #',player_number ORDER BY player_number SEPARATOR '; ') AS players
+FROM soccer_team;  
+
+2）sorted by their numbers：
+ORDER BY player_number
+
+3）and put this list in a table under a column called players：
+
+SELECT AS players
