@@ -38,8 +38,6 @@ it can remove all the prefixes and suffixes in the string.
 *UPPER function:*    
 since all the null is case insensitive, so we need to use upper function to change all the string to upper level.
 
-SELECT COUNT(id) AS number_of_nulls  
-FROM departments  
 WHERE description IS NULL  
 OR UPPER(TRIM(description)) = 'NULL'  
 OR UPPER(TRIM(description)) = 'NIL'  
