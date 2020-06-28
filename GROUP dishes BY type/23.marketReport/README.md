@@ -35,3 +35,15 @@ the output should be
 | Total:  | 8           |
 
 # My Analysis:
+1）The first column should contain the country name,second column should contain the number of competitors in this country:  
+SELECT IFNULL(country, "Total:") AS country,  
+       IFNULL(COUNT(country), SUM(competitor)) AS competitors.   
+
+*IFNULL function: Return the specified value IF the expression is NULL, otherwise return the expression.*
+
+2) include the number of competitors per country and an additional row at the bottom that contains a summary: ("Total:", total_number_of_competitors):
+
+IFUNLL(country, "Total:") AS country.  
+
+3)ROLLUP funtion:ROLLUP modifier to the GROUP BY clause causes the query to produce another (super-aggregate) row that shows the grand total over all year values.  
+
