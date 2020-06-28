@@ -25,7 +25,7 @@ the output should be:
 
 # My Analysis:
 1)build a new table that only contains one column summary_legs and has only one row with the total number of legs that you can see,   
-since we're pretty confident that each human has 2 legs and that cats and dogs have 4 legs each, and it has already have some queries like:
+since we're pretty confident that each human has 2 legs and that cats and dogs have 4 legs each, and it has already have some queries like:  
 SELECT [need to be fill] as summary_legs  
     FROM creatures  
     ORDER BY id;  
