@@ -1,4 +1,5 @@
-Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
+Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.  
+
 You've been dreaming about becoming a famous hacker all your life, and now it's time to make your dreams come true! You decided to start by finding a website that has some vulnerability, and you just found a doozy. This particular website has an open database users that contains information about the people using it. What's more, it stores the queries performed on this table on the client side, which makes it super simple to hack them.
 
 The users table contains the following columns:
@@ -33,4 +34,12 @@ the existing query returns the following table:
 | 5  | EvaGrin | Eva  |
 
 # My Analysis:
+1) It has offered: 
+   SELECT id,login,name.   
+    FROM users.   
+    WHERE type='user'.   
+    [need to be fill in].    
+    ORDER BY id.   
 
+since we need to return type - The user's role type (which can be "user", "admin", "moderator", etc.In the existing query, it can only return the'user' type, while we also need other types, so what we need to fill in is:  
+OR type!='user'
