@@ -45,5 +45,6 @@ SELECT IFNULL(country, "Total:") AS country,
 
 IFUNLL(country, "Total:") AS country.  
 
-3)ROLLUP funtion:ROLLUP modifier to the GROUP BY clause causes the query to produce another (super-aggregate) row that shows the grand total over all year values.  
+3)ROLLUP funtion:ROLLUP modifier to the GROUP BY clause causes the query to produce another (super-aggregate) row that shows the grand total over all year values.    
 
+for more information:https://dev.mysql.com/doc/refman/8.0/en/group-by-modifiers.html
